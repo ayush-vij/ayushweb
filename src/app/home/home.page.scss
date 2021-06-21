@@ -1,27 +1,144 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-content {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.obj {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    word-wrap: break-word;
+    font-family: 'Arial white', arial;
+    // color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.navlinks {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Arial white', arial;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
 }
 
-#container a {
-  text-decoration: none;
+#navbar-primary.navbar-default {
+    background: transparent;
+    border: none;
+    // padding-top: 20%;
+}
+
+.navbar-nav {
+    padding-top: 15px;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    float: none;
+}
+
+.photocard {
+    width: 90%;
+    height: 92%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.meimgtag {
+    padding-top: 7%;
+    // align-items: flex-end;
+}
+
+.textcol {
+    // align-items: flex-start;
+}
+
+.photocol {
+    // text-align-last: right;
+    max-width: 20%;
+    padding-top: 50px;
+}
+
+.hicard {
+    padding-top: 50px;
+    width: 75%;
+    // vertical-align: right;
+}
+
+ion-col {
+    // border: 5px solid !important;
+    // max-width: 20%;
+}
+
+.hihead {
+    font-size: 40px;
+}
+
+.exphead {
+    font-size: 25px;
+}
+
+.expcol {
+    padding-top: 20px;
+}
+
+.socialicons {
+    padding-right: 20px;
+}
+
+.cittcol {
+    max-width: 20%;
+    padding-top: 50px;
+}
+
+.twccol {
+    max-width: 20%;
+    padding-top: 20px;
+}
+
+.twcol {
+    padding-top: 5%;
+}
+
+.msftcol {
+    padding-top: 0%;
+}
+
+.csulbcol {
+    padding-top: 1.8%;
+    max-width: 20%;
+}
+
+.csulb1col {
+    padding-top: 0%;
+    max-width: 20%;
+}
+
+.csulb2col {
+    padding-top: 2.7%;
+}
+
+.induscol {
+    max-width: 20%;
+    padding-top: 2%;
+}
+
+.tccol {
+    max-width: 20%;
+    padding-top: 1%;
+}
+
+h3 {
+    color: white;
 }
