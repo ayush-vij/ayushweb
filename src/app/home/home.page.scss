@@ -32,7 +32,7 @@ ion-content {
 }
 
 .navbar-nav {
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .navbar-nav {
@@ -55,6 +55,10 @@ a {
     text-decoration: none;
 }
 
+// a:hover {
+//     color: black;
+//     text-decoration: none;
+// }
 .meimgtag {
     padding-top: 7%;
     // align-items: flex-end;
@@ -87,6 +91,7 @@ ion-col {
 
 .exphead {
     font-size: 25px;
+    color: white;
 }
 
 .expcol {
@@ -139,9 +144,7 @@ ion-col {
     padding-top: 2.3%;
 }
 
-h3 {
-    color: white;
-}
+h3 {}
 
 .csulb3col {
     max-width: 20%;
@@ -151,4 +154,24 @@ h3 {
 .csulb4col {
     max-width: 20%;
     padding-top: 2.7%;
+}
+
+.agilecard:hover {
+    height: 200%;
+}
+
+ion-card:hover {
+    background-color: white;
+    color: black !important;
+    transition: 1.5s;
+}
+
+ion-card:hover .exphead {
+    color: black !important;
+    transition: 1.5s;
+}
+
+ion-card:hover a {
+    color: black !important;
+    transition: 1.5s;
 }

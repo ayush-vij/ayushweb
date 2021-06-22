@@ -65,7 +65,7 @@
 
     <center>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_jfozfthz.json" background="transparent" speed="0.8" style="width: 300px; height: 100px;" autoplay></lottie-player>
+        <lottie-player src="https://assets4.lottiefiles.com/temp/lf20_fw4v8s.json" background="transparent" speed="1" style="width: 300px; height: 200px;" loop autoplay></lottie-player>
     </center>
     <header role="banner" id="navheader">
         <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
@@ -73,15 +73,15 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="collapse navbar-collapse" id="navbar-primary-collapse">
                     <ul class="nav navbar-nav">
-                        <lb><a href="#objectives" class="navlinks">OBJECTIVES</a></lb>
-                        <lb><a href="#experience" class="navlinks">EXPERIENCE</a></lb>
-                        <lb><a href="#publications" class="navlinks">PUBLICATIONS</a></lb>
-                        <lb><a href="#volunteering" class="navlinks">VOLUNTEERING</a></lb>
-                        <lb><a href="#projects" class="navlinks">PROJECTS</a></lb>
+                        <lb><a (click)="scrollToObjectives()" class="navlinks">OBJECTIVES</a></lb>
+                        <lb><a (click)="scrollToExperiences()" class="navlinks">EXPERIENCE</a></lb>
+                        <lb><a (click)="scrollToPublications()" class="navlinks">PUBLICATIONS</a></lb>
+                        <lb><a (click)="scrollToVolunteering()" class="navlinks">VOLUNTEERING</a></lb>
+                        <lb><a (click)="scrollToProjects()" class="navlinks">PROJECTS</a></lb>
                         <lb>
-                            <a href="#certifications" class="navlinks"><br>CERTIFICATIONS</a>
+                            <a (click)="scrollToCertifications()" class="navlinks"><br>CERTIFICATIONS</a>
                         </lb>
-                        <lb><a href="#keywords" class="navlinks">KEYWORDS</a></lb>
+                        <lb><a (click)="scrollToKeywords()" class="navlinks">KEYWORDS</a></lb>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -110,7 +110,7 @@
         <ion-row>
             <ion-col>
                 <center>
-                    <ion-card class="headingcard" id="experience" style="background-color: white; max-width: 40%;">
+                    <ion-card class="headingcard" id="experiences" style="background-color: white; max-width: 40%;">
                         <ion-card-content>
                             <h1 class="obj" style="text-align: center; color: black;">EXPERIENCE</h1>
                         </ion-card-content>
@@ -568,4 +568,215 @@
             </ion-col>
         </ion-row>
     </ion-grid>
+
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <center>
+                    <ion-card class="headingcard" id="CERTIFICATIONS" style="background-color: white; max-width: 40%;">
+                        <ion-card-content>
+                            <h1 class="obj" style="text-align: center; color: black;">CERTIFICATIONS</h1>
+                        </ion-card-content>
+                    </ion-card>
+                </center>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card class="">
+                    <ion-card-content>
+                        <center>
+                            <!-- <div class="linkedindiv"> -->
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <!-- </div> -->
+                            <pre><b>Agile Software Development</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <pre><b>Cert Prep: Project Management Professional (PMP)</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <pre><b>Business Analysis Foundations</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <pre><b>Software Requirement Engineering</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <img src="../../assets/newibm.gif" style="width: 10%; height: 6%;">
+                            <pre><b>IBM: Enterprise Design Thinking Practitioner</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <img src="../../assets/newibm.gif" style="width: 10%; height: 6%;">
+                            <pre><b>IBM: Enterprise Design Thinking - Team Essentials for AI Business</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <img src="../../assets/newibm.gif" style="width: 10%; height: 6%;">
+                            <pre><b>IBM: Enterprise Design Thinking Co-Creator</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <pre><b>Fundamentals for Customer Success Managers</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <ion-card-content>
+                        <center>
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hwvh0smy.json" background="transparent" speed="0.3" style="width: 20px; height: 20px;" autoplay loop></lottie-player>
+                            <pre><b>Microsoft SQL Server 2019 Essential Training</b></pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+    <!--KEYWORDS DIV-->
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <center>
+                    <ion-card class="headingcard" id="KEYWORDS" style="background-color: white; max-width: 40%;">
+                        <ion-card-content>
+                            <h1 class="obj" style="text-align: center; color: black;">KEYWORDS</h1>
+                        </ion-card-content>
+                    </ion-card>
+                </center>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card class="">
+                    <ion-card-content>
+
+                        <p><b>Technical Proficiencies:</b> Python, PHP, CakePHP, Bootstrap, HTML5, CSS3, JavaScript, Typescript, SQL, Microsoft (MS) SQL Server, Ionic Framework, Git, WordPress, Drupal, BugZilla, MS Power BI, Tableau, MS PowerApps, MS Visio,
+                            MS Azure, Adobe Creative Cloud, TweetDeck, Hootsuite, Buffer, and Sprout Social.</p>
+
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card class="">
+                    <ion-card-content>
+
+                        <p><b>Business Proficiencies:</b> Problem Solving, Agile Methodologies, Strategy Development, Business Requirements, Business Analysis, Requirement Analysis, Business Process, Relationship Building, Deal Execution, and User Acceptance
+                            Testing.
+                        </p>
+
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <!-- 
+    Profificents
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <center>
+                    <ion-card class="headingcard" id="KEYWORDS" style="background-color: white; max-width: 40%;">
+                        <ion-card-content>
+                            <h1 class="obj" style="text-align: center; color: black;">Skills</h1>
+                        </ion-card-content>
+                    </ion-card>
+                </center>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card style="max-height: 50%; max-width: 50%;">
+                    <ion-card-content>
+                        <center>
+                            <img src=" ../../assets/python.png" height=40%; width=50%;>
+                            <pre>Python and Flask</pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card style="max-height: 50%; max-width: 50%;">
+                    <ion-card-content>
+                        <center>
+                            <img src="../../assets/Web.png " height=40%; width=50%;>
+                            <pre>HTML5, CSS3, and Javascript</pre>
+                        </center>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card class=" ">
+                    <ion-card-content>
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js "></script>
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_7aq7s6rs.json " background="transparent " speed="0.5 " style="width: 300px; height: 100px; " loop autoplay></lottie-player>
+                        <p>PHP and CakePHP</p>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+    </ion-grid> -->
 </ion-content>

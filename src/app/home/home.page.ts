@@ -17,6 +17,82 @@ export class HomePage {
     private appAvailability: AppAvailability
   ) { }
 
+  scrollToObjectives() {
+    let e = document.getElementById("objectives");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
+  scrollToExperiences() {
+    let e = document.getElementById("experiences");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
+  scrollToPublications() {
+    let e = document.getElementById("PUBLICATIONS");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
+  scrollToVolunteering() {
+    let e = document.getElementById("VOLUNTEERING");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+   
+  scrollToProjects() {
+    let e = document.getElementById("PROJECTS");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
+  scrollToCertifications() {
+    let e = document.getElementById("CERTIFICATIONS");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
+
+  scrollToKeywords() {
+    let e = document.getElementById("KEYWORDS");
+    // This ends the block to the window 
+    // bottom and also aligns the view to the center 
+    e.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'center'
+    });
+  }
 
   onClick(event) {
  
