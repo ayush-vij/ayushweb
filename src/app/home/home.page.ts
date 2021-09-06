@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { AppAvailability } from '@ionic-native/app-availability/ngx';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -14,8 +15,13 @@ export class HomePage {
   constructor(
     private platform: Platform,
     private inAppBrowser: InAppBrowser,
-    private appAvailability: AppAvailability
+    private appAvailability: AppAvailability,
+    private router: Router
   ) { }
+
+  download(url){
+    window.open(url, "_blank");
+  }
 
   scrollToObjectives() {
     let e = document.getElementById("objectives");
